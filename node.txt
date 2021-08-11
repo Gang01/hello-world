@@ -1,0 +1,10 @@
+Step 1: From your project repository, bring in the changes and test.
+
+git fetch origin
+git checkout -b Readme_Edits origin/Readme_Edits
+git merge main
+Step 2: Merge the changes and update on GitHub.
+
+git checkout main
+git merge --no-ff Readme_Edits
+git push origin main
